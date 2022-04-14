@@ -1,0 +1,67 @@
+// Here you can add other styles
+
+body {
+    font-family: 'Open Sans';
+}
+
+.sidebar {
+    background-color: white !important;
+}
+
+.sidebar-brand {
+    background-color: white !important;
+}
+
+#customSidebar {
+    color: #b7b7b7;
+    font-weight: 600;
+}
+
+#customSidebar.active {
+  color: black
+}
+
+#customSidebar.active .nav-icon {
+  color: #6e4ad1;
+}
+
+.nav-link .nav-icon {
+    color: #9996a1;
+}
+
+$theme-colors: (
+    'primary': #7fc4d4,
+);
+.label-verfication-view{
+    font-weight: 600 !important;
+}
+
+.new-line{
+  white-space: pre-line;
+}
+.customTabs .nav-item .nav-link {
+    color: #768192 !important;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.customTabs .nav-item .nav-link.active {
+    color: #284a9a !important;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+// Remove arrows from input number
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
